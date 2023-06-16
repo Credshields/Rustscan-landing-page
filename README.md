@@ -1,1 +1,1 @@
-# Rustscan-landing-page
+# Rustscan landing page
