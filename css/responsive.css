@@ -1,0 +1,114 @@
+@media (min-width: 280px) and (max-width: 820px) {
+  body,
+  html {
+    overflow-y: auto;
+  }
+  .header {
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 24px;
+    position: fixed;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+  }
+
+  .navbar-item-right span {
+    display: none;
+  }
+
+  .navbar-btn {
+    width: 150px;
+  }
+
+  .content {
+    width: 90vw;
+    padding: 30px;
+  }
+
+  .content h1 {
+    margin-top: 5rem;
+    font-size: 3rem;
+  }
+
+  .content h2 {
+    padding-top: 1rem;
+    line-height: 2rem;
+  }
+
+  .content p {
+    font-size: 18px;
+    width: 90%;
+    padding-top: 4rem;
+  }
+
+  .footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-logo {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .footer-products {
+    margin: 20px;
+  }
+
+  .sol-logo {
+    width: 140px;
+  }
+
+  .rust-logo {
+    width: 120px;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1200px) {
+  .header {
+    padding: 1rem 3rem;
+  }
+
+  .navbar {
+    width: 88%;
+  }
+
+  .content {
+    width: 90vw;
+    padding: 3rem;
+  }
+
+  .content h1 {
+    font-size: 3.5rem;
+  }
+
+  .content h2 {
+    padding-top: 1rem;
+    line-height: 2rem;
+  }
+
+  .content p {
+    font-size: 18px;
+    width: 90%;
+    padding-top: 4rem;
+  }
+
+  .footer-logo {
+    padding: 3rem;
+  }
+
+  .footer-products {
+    margin-right: 3rem;
+  }
+}
